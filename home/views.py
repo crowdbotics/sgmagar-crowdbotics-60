@@ -6,6 +6,7 @@ from django.shortcuts import render
 
 def home(request):
     packages = [
+ {'name':'djangoshop-stripe', 'url': 'http://pypi.python.org/pypi/djangoshop-stripe/0.12.2'},
  {'name':'pinax-stripe', 'url': 'http://pypi.python.org/pypi/pinax-stripe/4.0.0'},
  {'name':'dj-stripe', 'url': 'http://pypi.python.org/pypi/dj-stripe/1.0.0.post1'},
  {'name':'django-paypal', 'url': 'http://pypi.python.org/pypi/django-paypal/0.4.1'},
